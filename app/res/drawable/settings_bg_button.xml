@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tonal outlined button used for the voice test buttons on the Settings screen. -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:attr/colorControlHighlight">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/surface" />
+            <stroke android:width="1dp" android:color="@color/divider" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+</ripple>

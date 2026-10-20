@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#121416</color>
+    <color name="surface">#121416</color>
+    <color name="surface_alt">#1E2125</color>
+    <color name="text_primary">#E6E8EA</color>
+    <color name="text_secondary">#A4A9AF</color>
+    <color name="divider">#2C3035</color>
+    <color name="accent">#90CAF9</color>
+    <color name="on_accent">#0B1A2A</color>
+    <color name="kaj">#FFAB91</color>
+    <color name="kaj_bg">#3A2620</color>
+    <color name="cak">#80CBC4</color>
+    <color name="cak_bg">#1C3330</color>
+    <color name="ai_tag">#C3A8EC</color>
+    <color name="wikt_tag">#9CCC9E</color>
+    <color name="star">#FFC93C</color>
+</resources>

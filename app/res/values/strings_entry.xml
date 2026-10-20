@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- States -->
+    <string name="entry_preparing">Preparing the dictionary…</string>
+    <string name="entry_not_found_title">No entry for “%1$s”</string>
+    <string name="entry_not_found_generic">Entry not found</string>
+    <string name="entry_not_found_text">It may be an inflected form, a phrase or a spelling variant. A full search will look for it everywhere.</string>
+    <string name="entry_search_for">Search for “%1$s”</string>
+    <string name="entry_error_title">Could not open the dictionary</string>
+    <string name="entry_error_text">Something went wrong while reading the offline database.</string>
+    <string name="entry_retry">Try again</string>
+
+    <!-- Top bar -->
+    <string name="entry_bookmark_add">Add bookmark</string>
+    <string name="entry_bookmark_remove">Remove bookmark</string>
+    <string name="entry_bookmarked">Bookmarked</string>
+    <string name="entry_unbookmarked">Bookmark removed</string>
+
+    <!-- Header -->
+    <string name="entry_commonness">Commonness: %1$d of 5</string>
+    <string name="entry_commonness_hint">Commonness %1$d of 5 (AI estimate)</string>
+    <string name="entry_speak_kaj">Play Kajkavian pronunciation</string>
+    <string name="entry_speak_sentence">Play sentence</string>
+
+    <!-- Sections -->
+    <string name="entry_definitions">Definitions</string>
+    <string name="entry_examples">Examples</string>
+    <string name="entry_kajkavian">Kajkavski (Međimurje)</string>
+    <string name="entry_standard">Standard Croatian</string>
+    <string name="entry_inflection">Inflection</string>
+    <string name="entry_related">Related words</string>
+    <string name="entry_alternatives">Alternative forms</string>
+    <string name="entry_etymology">Etymology</string>
+
+    <!-- Sense details -->
+    <string name="entry_syn">syn.</string>
+    <string name="entry_ant">ant.</string>
+    <string name="entry_see">see</string>
+
+    <!-- Kajkavian card -->
+    <string name="entry_conf_high">high confidence</string>
+    <string name="entry_conf_medium">medium confidence</string>
+    <string name="entry_conf_low">low confidence</string>
+    <string name="entry_ai_footnote">AI-generated — verify with a native speaker.</string>
+    <string name="entry_wiktionary_label">Wiktionary:</string>
+
+    <!-- Inflection -->
+    <string name="entry_table_expanded">%1$s, expanded</string>
+    <string name="entry_table_collapsed">%1$s, collapsed</string>
+    <string name="entry_table_default">Forms</string>
+
+    <!-- Related -->
+    <string name="entry_synonyms">Synonyms</string>
+    <string name="entry_antonyms">Antonyms</string>
+    <string name="entry_derived">Derived terms</string>
+    <string name="entry_related_terms">Related terms</string>
+    <string name="entry_show_all">Show all (%1$d)</string>
+
+    <!-- Footer -->
+    <string name="entry_source_wikt">Source: Wiktionary (CC BY-SA 4.0)</string>
+    <string name="entry_source_ai">Includes AI-generated content</string>
+</resources>

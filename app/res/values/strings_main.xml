@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Search bar -->
+    <string name="main_search_hint">Search English, hrvatski or kajkavski</string>
+    <string name="main_clear">Clear search</string>
+
+    <!-- Search direction -->
+    <string name="main_mode_auto">Auto</string>
+    <string name="main_mode_hr">HR → EN</string>
+    <string name="main_mode_en">EN → HR</string>
+    <string name="main_mode_auto_desc">Search both languages automatically</string>
+    <string name="main_mode_hr_desc">Croatian to English</string>
+    <string name="main_mode_en_desc">English to Croatian</string>
+
+    <!-- Overflow menu -->
+    <string name="main_menu_bookmarks">Bookmarks</string>
+    <string name="main_menu_history">History</string>
+    <string name="main_menu_settings">Settings</string>
+    <string name="main_menu_about">About</string>
+
+    <!-- Home (empty query) -->
+    <string name="main_wotd">Word of the day</string>
+    <string name="main_wotd_desc">Word of the day: %1$s, %2$s</string>
+    <string name="main_recent">Recent</string>
+    <string name="main_recent_empty">Words you look up will appear here.</string>
+    <string name="main_tip">Tip: select a word in any app and choose “Look up in Rječnik”. Croatian letters are optional, so “kuca” finds “kuća”.</string>
+
+    <!-- Result rows -->
+    <string name="main_kaj_line">Kajk. (Međimurje): %1$s</string>
+    <string name="main_speak_word">Pronounce %1$s</string>
+    <string name="main_pos_name">proper noun</string>
+    <string name="main_results_limit">Showing the top %1$d matches. Keep typing to narrow them down.</string>
+
+    <!-- States -->
+    <string name="main_preparing">Preparing offline dictionary… this happens once</string>
+    <string name="main_preparing_detail">Unpacking the word list onto your phone so that everything works without an internet connection.</string>
+    <string name="main_no_results">No results for “%1$s”</string>
+    <string name="main_no_results_auto">Check the spelling, or try the basic form of the word (the infinitive of a verb, the nominative of a noun). Croatian letters are optional: “zivot” finds “život”.</string>
+    <string name="main_no_results_hr">No Croatian or Kajkavian word matches. Croatian letters are optional (“zivot” finds “život”). Is it an English word?</string>
+    <string name="main_no_results_en">No English word matches. Is it a Croatian or Kajkavian word?</string>
+    <string name="main_try_en">Search English → Croatian</string>
+    <string name="main_try_hr">Search Croatian → English</string>
+    <string name="main_error">The dictionary could not be opened</string>
+    <string name="main_error_detail">Preparing the offline word list failed. Make sure your phone has some free storage space, then try again.</string>
+    <string name="main_retry">Try again</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Rounded card (bg_card) with a ripple clipped to its corners. -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:attr/colorControlHighlight">
+    <item android:drawable="@drawable/bg_card" />
+</ripple>

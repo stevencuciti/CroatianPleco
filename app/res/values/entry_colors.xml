@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Warning tone for low-confidence AI Kajkavian forms (entry screen only). -->
+    <color name="entry_warn">#A3410B</color>
+    <color name="entry_warn_bg">#FFE3C2</color>
+</resources>

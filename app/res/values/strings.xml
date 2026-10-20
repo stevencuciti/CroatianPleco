@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rječnik</string>
+    <string name="app_full_name">Rječnik — English · Hrvatski · Kajkavski</string>
+    <string name="back">Back</string>
+    <string name="more">More options</string>
+    <string name="speak">Play pronunciation</string>
+    <string name="speak_slow">Play slowly</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="copied">Copied</string>
+    <string name="dialect_kaj">KAJ</string>
+    <string name="dialect_cak">ČAK</string>
+    <string name="tag_ai">AI-generated</string>
+    <string name="tag_wikt">Wiktionary</string>
+    <string name="main_lookup_label">Look up in Rječnik</string>
+</resources>

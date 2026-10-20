@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gutter">16dp</dimen>
+    <dimen name="row_pad">12dp</dimen>
+    <dimen name="corner">12dp</dimen>
+    <dimen name="topbar_height">56dp</dimen>
+    <dimen name="touch">48dp</dimen>
+</resources>

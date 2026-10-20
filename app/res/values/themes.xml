@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Follows the system light/dark setting through values-night. -->
+    <style name="Theme_Rjecnik" parent="Theme_Rjecnik_Light" />
+
+    <style name="Theme_Rjecnik_Light" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/accent</item>
+        <item name="android:colorPrimaryDark">#FFFFFF</item>
+        <item name="android:colorAccent">#1565C0</item>
+        <item name="android:windowBackground">#FFFFFF</item>
+        <item name="android:statusBarColor">#FFFFFF</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:textColorPrimary">#1A1C1E</item>
+        <item name="android:textColorSecondary">#5F6368</item>
+        <item name="android:colorControlActivated">#1565C0</item>
+        <item name="android:colorControlHighlight">#1F1565C0</item>
+        <item name="android:textColorHighlight">#551565C0</item>
+        <item name="android:alertDialogTheme">@style/Dialog_Rjecnik_Light</item>
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+    </style>
+
+    <style name="Theme_Rjecnik_Dark" parent="android:Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">#90CAF9</item>
+        <item name="android:colorPrimaryDark">#121416</item>
+        <item name="android:colorAccent">#90CAF9</item>
+        <item name="android:windowBackground">#121416</item>
+        <item name="android:statusBarColor">#121416</item>
+        <item name="android:navigationBarColor">#121416</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:textColorPrimary">#E6E8EA</item>
+        <item name="android:textColorSecondary">#A4A9AF</item>
+        <item name="android:colorControlActivated">#90CAF9</item>
+        <item name="android:colorControlHighlight">#2690CAF9</item>
+        <item name="android:textColorHighlight">#5590CAF9</item>
+        <item name="android:alertDialogTheme">@style/Dialog_Rjecnik_Dark</item>
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+    </style>
+
+    <style name="Dialog_Rjecnik_Light" parent="android:Theme.Material.Light.Dialog.Alert">
+        <item name="android:colorAccent">#1565C0</item>
+    </style>
+    <style name="Dialog_Rjecnik_Dark" parent="android:Theme.Material.Dialog.Alert">
+        <item name="android:colorAccent">#90CAF9</item>
+    </style>
+
+    <style name="TopBarTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="TopBarButton">
+        <item name="android:layout_width">@dimen/touch</item>
+        <item name="android:layout_height">@dimen/touch</item>
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="SectionTitle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.08</item>
+    </style>
+</resources>

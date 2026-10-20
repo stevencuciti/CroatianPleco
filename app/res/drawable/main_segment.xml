@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- One segment: filled accent pill when selected, transparent otherwise; ripple clipped to the pill. -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:attr/colorControlHighlight">
+    <item>
+        <selector>
+            <item android:state_selected="true">
+                <inset
+                    android:drawable="@drawable/bg_segment_on"
+                    android:insetBottom="7dp"
+                    android:insetLeft="3dp"
+                    android:insetRight="3dp"
+                    android:insetTop="7dp" />
+            </item>
+            <item android:drawable="@android:color/transparent" />
+        </selector>
+    </item>
+    <item android:id="@android:id/mask">
+        <inset
+            android:insetBottom="7dp"
+            android:insetLeft="3dp"
+            android:insetRight="3dp"
+            android:insetTop="7dp">
+            <shape android:shape="rectangle">
+                <solid android:color="@color/accent" />
+                <corners android:radius="18dp" />
+            </shape>
+        </inset>
+    </item>
+</ripple>

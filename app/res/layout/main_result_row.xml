@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- One search result: headword line, optional match chip, English gloss, optional Kajkavian line, speaker. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:minHeight="64dp"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/gutter"
+    android:paddingTop="10dp"
+    android:paddingEnd="4dp"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- wrap_content line + weighted headword: a long headword shrinks and ellipsizes while
+             the dialect badge and part of speech stay visible. -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/main_row_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp" />
+
+            <FrameLayout
+                android:id="@+id/main_row_badge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/main_row_pos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:fontFeatureSettings="smcp"
+                android:letterSpacing="0.03"
+                android:maxLines="1"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/main_row_match"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/main_chip"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingStart="8dp"
+            android:paddingTop="2dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="2dp"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/main_row_gloss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:ellipsize="end"
+            android:lineSpacingExtra="2dp"
+            android:maxLines="2"
+            android:textColor="@color/text_secondary"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/main_row_kaj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/kaj"
+            android:textSize="14sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <!-- Not focusable, so the ListView row itself stays clickable. -->
+    <ImageButton
+        android:id="@+id/main_row_speak"
+        android:layout_width="@dimen/touch"
+        android:layout_height="@dimen/touch"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/speak"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:scaleType="center"
+        android:src="@drawable/ic_speaker" />
+</LinearLayout>

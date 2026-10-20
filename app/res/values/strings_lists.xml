@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lists_tab_bookmarks">Bookmarks</string>
+    <string name="lists_tab_history">History</string>
+
+    <string name="lists_clear_history">Clear history</string>
+    <string name="lists_clear_title">Clear history?</string>
+    <plurals name="lists_clear_message">
+        <item quantity="one">This removes the word from your history. Bookmarks are kept.</item>
+        <item quantity="other">This removes all %d words from your history. Bookmarks are kept.</item>
+    </plurals>
+    <string name="lists_clear_confirm">Clear</string>
+    <string name="lists_cleared">History cleared</string>
+
+    <string name="lists_remove_title">Remove bookmark?</string>
+    <string name="lists_remove_message">“%1$s” will be removed from your bookmarks.</string>
+    <string name="lists_remove_confirm">Remove</string>
+    <string name="lists_removed">Bookmark removed</string>
+    <string name="lists_cancel">Cancel</string>
+
+    <string name="lists_empty_bookmarks_title">No bookmarks yet</string>
+    <string name="lists_empty_bookmarks_body">Tap the star on any entry to keep the word here for quick review.</string>
+    <string name="lists_empty_history_title">No history yet</string>
+    <string name="lists_empty_history_body">Words you open are listed here, newest first.</string>
+    <string name="lists_remove_hint">Touch and hold a bookmark to remove it.</string>
+
+    <string name="lists_time_now">Just now</string>
+    <string name="lists_time_minutes">%d min ago</string>
+    <string name="lists_time_hours">%d h ago</string>
+    <string name="lists_time_yesterday">Yesterday</string>
+    <string name="lists_time_days">%d days ago</string>
+</resources>

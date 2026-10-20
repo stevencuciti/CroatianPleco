@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hint under the bookmark list. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/lists_footer_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingStart="@dimen/gutter"
+        android:paddingTop="16dp"
+        android:paddingEnd="@dimen/gutter"
+        android:paddingBottom="16dp"
+        android:text="@string/lists_remove_hint"
+        android:textColor="@color/text_secondary"
+        android:textSize="13sp"
+        android:visibility="gone" />
+</FrameLayout>

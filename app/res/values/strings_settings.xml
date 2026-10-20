@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_title">Settings</string>
+
+    <!-- Section titles -->
+    <string name="settings_section_pronunciation">Pronunciation</string>
+    <string name="settings_section_display">Display</string>
+    <string name="settings_section_data">Data</string>
+
+    <!-- Voice engine -->
+    <string name="settings_voice_label">Voice</string>
+    <string name="settings_engine_auto">Automatic</string>
+    <string name="settings_engine_auto_summary">Phone voice if available, otherwise built-in</string>
+    <string name="settings_engine_system">Phone voice</string>
+    <string name="settings_engine_system_summary">The phone\'s own Croatian text-to-speech voice</string>
+    <string name="settings_engine_espeak">Built-in eSpeak NG</string>
+    <string name="settings_engine_espeak_summary">Always works offline, but sounds robotic</string>
+
+    <!-- Speech speed -->
+    <string name="settings_speed_label">Speech speed</string>
+    <string name="settings_speed_value">%1$s×</string>
+    <string name="settings_speed_slower">Slower</string>
+    <string name="settings_speed_faster">Faster</string>
+
+    <!-- Status, tests and system voice -->
+    <string name="settings_status_label">Status</string>
+    <string name="settings_test_hr">Test Croatian</string>
+    <string name="settings_test_kaj">Test Kajkavian</string>
+    <string name="settings_test_hr_text" translatable="false">Dobar dan! Kako ste?</string>
+    <string name="settings_test_kaj_text" translatable="false">Dober den! Kak ste?</string>
+    <string name="settings_voice_help">Croatian phone voices sound the most natural. Download one once (for example Google Speech Services → Croatian) and it works offline from then on. The built-in eSpeak NG voice always works offline, but it sounds robotic.</string>
+    <string name="settings_install_voice">Install Croatian phone voice</string>
+    <string name="settings_install_voice_summary">Opens your phone\'s voice downloader</string>
+    <string name="settings_install_voice_failed">No voice installer was found. Install Speech Services by Google, then add Croatian in its settings.</string>
+    <string name="settings_tts_settings">Text-to-speech settings</string>
+    <string name="settings_tts_settings_summary">Preferred engine, voice data and speed</string>
+    <string name="settings_tts_settings_failed">Could not open the phone\'s settings.</string>
+
+    <!-- Display -->
+    <string name="settings_accents">Tonal accent marks</string>
+    <string name="settings_accents_summary">Show accented forms such as kȕća and accents in tables</string>
+    <string name="settings_kajkavian">Kajkavian (Međimurje)</string>
+    <string name="settings_kajkavian_summary">Show Kajkavian equivalents next to standard Croatian</string>
+    <string name="settings_theme_label">Theme</string>
+    <string name="settings_theme_system">Follow system</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+
+    <!-- Data -->
+    <string name="settings_dictionary_label">Dictionary</string>
+    <string name="settings_dictionary_loading">Loading…</string>
+    <string name="settings_dictionary_size">%1$s entries</string>
+    <string name="settings_dictionary_size_ai">%1$s entries · %2$s with AI examples</string>
+    <string name="settings_dictionary_unavailable">The dictionary could not be opened.</string>
+    <string name="settings_clear_history">Clear history</string>
+    <string name="settings_history_empty">Your history is empty</string>
+    <plurals name="settings_history_count">
+        <item quantity="one">%1$d word in your history</item>
+        <item quantity="other">%1$d words in your history</item>
+    </plurals>
+    <string name="settings_clear_confirm_title">Clear history?</string>
+    <string name="settings_clear_confirm_message">All words in your history will be removed. Bookmarks are kept.</string>
+    <string name="settings_clear_confirm_ok">Clear</string>
+    <string name="settings_history_cleared">History cleared</string>
+    <string name="settings_history_clear_failed">Could not clear the history.</string>
+    <string name="settings_history_already_empty">Your history is already empty.</string>
+
+    <!-- About row -->
+    <string name="settings_about">About Rječnik</string>
+    <string name="settings_about_summary">Sources, licences and AI disclosure</string>
+</resources>

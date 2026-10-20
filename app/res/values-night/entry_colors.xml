@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="entry_warn">#FFCC80</color>
+    <color name="entry_warn_bg">#4A3313</color>
+</resources>

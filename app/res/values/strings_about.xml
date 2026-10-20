@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_title">About</string>
+    <string name="about_tagline">English · Hrvatski · Kajkavski</string>
+    <string name="about_version">Version %1$s (%2$d)</string>
+    <string name="about_description">An offline dictionary for English, standard Croatian and Kajkavian. Search in either language, read full definitions and inflection tables, study example sentences and listen to pronunciations, all without an internet connection.</string>
+
+    <!-- Dictionary statistics -->
+    <string name="about_section_dictionary">Dictionary</string>
+    <string name="about_stat_entries">Entries</string>
+    <string name="about_stat_enriched">Entries with AI examples</string>
+    <string name="about_stat_variety">Kajkavian variety</string>
+    <string name="about_stat_loading">…</string>
+    <string name="about_stat_unknown">—</string>
+
+    <!-- Sources and licences -->
+    <string name="about_section_sources">Sources &amp; licences</string>
+    <string name="about_wikt_title">English Wiktionary</string>
+    <string name="about_wikt_licence" translatable="false">CC BY-SA 4.0</string>
+    <string name="about_wikt_body">Definitions, inflection tables, etymologies, related words and Wiktionary example sentences come from the English Wiktionary, written by Wiktionary contributors. They are used under the Creative Commons Attribution-ShareAlike 4.0 International licence, reformatted and abridged for this app; the dictionary data is shared under the same licence.</string>
+    <string name="about_wikt_url" translatable="false">https://en.wiktionary.org</string>
+    <string name="about_wikt_licence_url" translatable="false">https://creativecommons.org/licenses/by-sa/4.0/</string>
+    <string name="about_kaikki_title">wiktextract · kaikki.org</string>
+    <string name="about_kaikki_body">The Wiktionary data was extracted with wiktextract by Tatu Ylonen and obtained from kaikki.org.</string>
+    <string name="about_kaikki_url" translatable="false">https://kaikki.org</string>
+    <string name="about_espeak_title">eSpeak NG</string>
+    <string name="about_espeak_licence" translatable="false">GPL-3.0-or-later</string>
+    <string name="about_espeak_body">The built-in offline voice is the eSpeak NG speech synthesiser by the eSpeak NG contributors, licensed under the GNU General Public License, version 3 or (at your option) any later version.</string>
+    <string name="about_espeak_url" translatable="false">https://github.com/espeak-ng/espeak-ng</string>
+    <string name="about_app_title">This app</string>
+    <string name="about_app_licence" translatable="false">GPL-3.0</string>
+    <string name="about_app_body">Rječnik links eSpeak NG and is therefore distributed under the GNU General Public License, version 3 (GPL-3.0). It is provided without any warranty.</string>
+    <string name="about_app_url" translatable="false">https://www.gnu.org/licenses/gpl-3.0.html</string>
+
+    <!-- AI disclosure (wording fixed by docs/APP_SPEC.md) -->
+    <string name="about_section_ai">AI-generated content</string>
+    <string name="about_ai_body">Example sentences, commonness ratings and Međimurje Kajkavian equivalents were generated with AI (Claude by Anthropic), then checked by automated tests and a targeted AI correction pass. No human has reviewed them. They may contain mistakes — verify with a native speaker.</string>
+    <string name="about_ai_low_confidence">Treat Kajkavian forms marked low confidence with particular care.</string>
+
+    <!-- Offline -->
+    <string name="about_section_offline">Offline</string>
+    <string name="about_offline_body">Rječnik has no internet permission, so it never connects to the internet. Search, definitions, example sentences and pronunciation all work fully offline.</string>
+    <string name="about_offline_voice">Pronunciation uses an offline Croatian phone voice when one is installed, and the built-in eSpeak NG voice otherwise.</string>
+
+    <string name="about_links_note">Web addresses are shown as plain text because the app works offline. Long-press one to copy it.</string>
+</resources>
